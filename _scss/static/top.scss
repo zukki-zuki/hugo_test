@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*
+* project_name
+* top.css
+*
+* @date YYYY-MM-DD
+*/
+
+// Common Settings
+@import "_partials/setting";
+@import "_partials/sprite-common";
+@import "_partials/mixin";
+
+/* --------------------------------
+   top
+-------------------------------- */
+.xxxx {
+	background: tomato;
+}
