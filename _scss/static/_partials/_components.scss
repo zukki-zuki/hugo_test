@@ -1,11 +1,25 @@
-/* ------------------------
-	コメント
------------------------- */
-.hoge {
-	width: 100%;
+.c-tit {
+	display: inline-block;
+	position: relative;
+	margin: 30px auto 15px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+	font-size: 34px;
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		border-bottom: 1px solid #999;
+	}
+	&::before {
+		bottom: 5px;
+	}
 }
 
-/* 小コメント ------- */
-.hoge_small {
-	width: 100%;
+.l-inner {
+	margin: 0 auto;
+	width: 1000px;
 }

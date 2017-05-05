@@ -8,9 +8,17 @@
 /* ------------------------
 	Foundation
 ------------------------ */
+html {
+	font-size: 62.5%;
+}
+
 html,
 body {
 	height: 100%;
+	color: #fff;
+	font-family: Raleway, "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+	font-size: 22.4px;
+	font-size: 1.4rem;
 }
 
 *,
@@ -67,7 +75,7 @@ small {
 sub,
 sup {
 	position: relative;
-	vertical-align: baseline; 
+	vertical-align: baseline;
 	font-size: 75%;
 	line-height: 0;
 }
@@ -94,7 +102,7 @@ video {
 }
 
 img {
-	border: 0; 
+	border: 0;
 	max-width: 100%;
 	height: auto;
 }
@@ -105,7 +113,7 @@ select,
 textarea {
 	min-height: 1.5em;
 	color: inherit;
-	font-family: inherit; 
+	font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
 }
@@ -123,7 +131,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	cursor: pointer; 
+	cursor: pointer;
 
 	-webkit-appearance: button;
 }
@@ -135,7 +143,7 @@ html input[disabled] {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-	padding: 0; 
+	padding: 0;
 	border: 0;
 }
 
@@ -178,7 +186,7 @@ html {
 
 body {
 	background-color: #fff;
-	word-wrap: break-word; 
+	word-wrap: break-word;
 	color: #333;
 	font-family: YuGothic, "ヒラギノ角ゴ ProN W3", "Lucida Grande", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Verdana, "ＭＳ Ｐゴシック", sans-serif;
 	line-height: 1.6875;
@@ -189,7 +197,7 @@ body {
 }
 
 a {
-	text-decoration: underline; 
+	text-decoration: underline;
 	color: #333;
 }
 
@@ -199,7 +207,7 @@ a:active {
 }
 
 a[href^="tel:"] {
-	cursor: text; 
+	cursor: text;
 	text-decoration: none;
 }
 
@@ -328,16 +336,30 @@ a[href^="tel:"] {
 	text-align: right !important;
 }
 
-/* ------------------------
-	コメント
------------------------- */
-.hoge {
-	width: 100%;
+.c-tit {
+	display: inline-block;
+	position: relative;
+	margin: 30px auto 15px;
+	padding-bottom: 15px;
+	letter-spacing: 2px;
+	font-size: 34px;
+}
+.c-tit:before,
+.c-tit:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-bottom: 1px solid #999;
+}
+.c-tit:before {
+	bottom: 5px;
 }
 
-/* 小コメント ------- */
-.hoge_small {
-	width: 100%;
+.l-inner {
+	margin: 0 auto;
+	width: 1000px;
 }
 
 @media print {
