@@ -1,5 +1,6 @@
-{{ partial "header.html" . }}
-<article>
+{{ partial "header2.html" . }}
+<article class="entry">
+  <div class="thumb thumb-{{ .UniqueID }}"></div>
   <header class="entry-header">
     <span class="entry-date">{{ .Date.Format "Jan 01, 2006" }}</span>
     <h1 class="entry-title">{{ .Title }}</h1>

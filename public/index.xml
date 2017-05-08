@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 May 2017 01:43:06 +0900</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/3/</link>
+      <pubDate>Sat, 06 May 2017 01:43:06 +0900</pubDate>
+      
+      <guid>/3/</guid>
+      <description>中谷さんやで</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/2/</link>
+      <pubDate>Sat, 06 May 2017 01:42:54 +0900</pubDate>
+      
+      <guid>/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ahgoeghoe</title>
+      <link>/first/</link>
+      <pubDate>Thu, 04 May 2017 18:31:26 +0900</pubDate>
+      
+      <guid>/first/</guid>
+      <description>ほげｈごえｈごえｈごえ</description>
+    </item>
+    
+  </channel>
+</rss>
