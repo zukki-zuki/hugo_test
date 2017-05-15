@@ -3,7 +3,7 @@
 -------------------------------- */
 .visual {
 	padding: 130px 0;
-	background: url(images/bg.png) 0 50% no-repeat;
+	background: url(images/bg.jpg) 0 50% no-repeat;
 	background-size: cover;
 	text-align: center;
 	color: #fff;
@@ -34,6 +34,7 @@
    about
 -------------------------------- */
 .about {
+	padding: 80px 0;
 	text-align: center;
 }
 
@@ -41,17 +42,114 @@
 	text-align: center;
 }
 
+.about_photo {
+	position: relative;
+	float: left;
+	width: 300px;
+}
+.about_photo img {
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.84252 0.14303999999999994 0.014439999999999995 0 0 0.04252 0.94304 0.014439999999999995 0 0 0.04252 0.14303999999999994 0.81444 0 0 0 0 0 1 0" /></filter></svg>#filter');
+	-webkit-filter: grayscale(20%);
+	        filter: grayscale(20%);
+}
+
+.about_body {
+	margin-top: 50px;
+	margin-left: 90px;
+}
+
+.about_name {
+	position: absolute;
+	top: 17px;
+	left: 330px;
+	float: left;
+	width: 370px;
+	text-align: left;
+	font-size: 29px;
+	line-height: 1.3;
+}
+
+.about_name_ja {
+	font-size: 24px;
+}
+
 .about_txt {
-	margin: 30px 0;
+	float: left;
+	margin: 150px 0 0 37px;
+}
+
+.about_greeting {
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.about_introduction {
+	margin-top: 7px;
+	width: 530px;
+	text-align: left;
 	font-size: 16px;
-	line-height: 2.5;
+	line-height: 1.8;
 }
 
 /* --------------------------------
    blog
 -------------------------------- */
 .blog {
-	padding: 0 40px;
+	padding: 80px 0;
 	background-color: rgba(236, 239, 241, 0.5);
+	text-align: center;
+}
+.blog a {
+	text-decoration: none;
+}
+
+.blog_tit {
+	text-align: center;
+}
+
+.blog_items {
+	overflow: hidden;
+	margin-top: 40px;
+	text-align: left;
+}
+
+.blog_item {
+	overflow: hidden;
+	float: left;
+	border: 1px solid #d0caca;
+	border-radius: 8px;
+	width: 300px;
+	height: 310px;
+	background: #fff;
+}
+.blog_item:not(:first-child) {
+	margin-left: 50px;
+}
+
+.blog_item_txt {
+	margin-left: 20px;
+}
+
+.blog_item_thumb {
+	border-bottom: 1px solid #d0caca;
+	height: 230px;
+}
+
+.blog_item_tit {
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.blog_item_date {
+	font-size: 12px;
+}
+
+/* --------------------------------
+   footer
+-------------------------------- */
+.footer {
 	text-align: center;
 }

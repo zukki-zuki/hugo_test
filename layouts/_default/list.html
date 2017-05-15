@@ -1,8 +1,11 @@
 <li class="blog_item">
   <a href="{{ .Permalink }}">
-    <div class="thumb thumb-{{ .UniqueID }}"></div>
-    <span class="blog_item_tit">{{ .Title }}</span>
-    <span class="blog_item_date">{{ .Date.Format "Jan 02, 2006" }}</span>
+    <div class="blog_item_thumb blog_item_thumb-{{ .UniqueID }}"></div>
+    <div class="blog_item_txt">
+      <span class="blog_item_tit">{{ .Title }}</span><br>
+      <span class="blog_item_date">{{ .Date.Format "Jan 02, 2006" }}</span>
+    </div>
+
     <style>
       {{ replaceRE " +" " " (replaceRE "\n" "" (partial "styles.css" .)) | safeCSS }}
       {{ with .Site.Params.fontfamily }} body { font-family: {{ . | safeCSS }}; } {{ end }}

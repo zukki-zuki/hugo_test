@@ -14,32 +14,38 @@
 
 
 <section class="visual">
-	<p class="visual_subtit">Web designer's portfolio</p>
-	<h1 class="visual_tit">HI, MY NAME IS...</h1>
+	<p class="visual_subtit">Web developer's portfolio</p>
+	<h1 class="visual_tit">WELCOME, HOGE</h1>
 </section>
 
 <section class="about">
   <div class="l-inner">
     <h2 class="about_tit c-tit">ABOUT ME</h2>
-    <div class="about_txt">はじめまして。日本でWebデザイナーをしています。<br> デザインの専門学校を卒業し、制作会社での業務経験を経て、現在はフリーランスとして働いています。
-      <br>
-      <br> このサイトは「HTML/CSS モダンコーディング」という書籍のサンプルとして作られた、架空のWebデザイナーのポートフォリオサイトです。<br> このサンプルのようなサイトをいちから作る過程を通して、HTMLとCSSの実践的なコーディングノウハウを学ぶことができます。
-    </div>
-  </div>
+		<div class="about_body clearfix">
+			<div class="about_photo"><img class="image" src="./images/about_photo.jpg" alt=""><div class="about_name">KAZUKI NAKATANI<br><span class="about_name_ja">中谷 和貴</span></div></div>
+			<div class="about_txt">
+				<div class="about_greeting">Hello! I'm Web Developer</div>
+				<div class="about_introduction">なかたにさんやでよろしくやでなかたにさんやでよろしくやでなかたにさんやでよろしくやでなかたにさんやでよろしくやでなかたにさんやでよろしくやでなかたにさんやでよろしくやで</div>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section class="blog">
   <div class="l-inner">
     <h2 class="blog_tit c-tit">BLOG</h2>
 
-    <ul>
+    <ul class="blog_items clearfix">
        <li class="blog_item">
   <a href="/3/">
-    <div class="thumb thumb-ae9997a2769c75053f068259cadd520a"></div>
-    <span class="blog_item_tit"></span>
-    <span class="blog_item_date">May 06, 2017</span>
+    <div class="blog_item_thumb blog_item_thumb-ae9997a2769c75053f068259cadd520a"></div>
+    <div class="blog_item_txt">
+      <span class="blog_item_tit">HUGOを使ってみた</span><br>
+      <span class="blog_item_date">May 06, 2017</span>
+    </div>
+
     <style>
-      .thumb { height: 500px; background-image: url(/images/default.jpg); background-size: cover;}
+      .blog_item_thumb { background-image: url(/images/default.jpg); background-size: cover;}
       
       
     </style>
@@ -47,11 +53,14 @@
 </li>
   <li class="blog_item">
   <a href="/2/">
-    <div class="thumb thumb-f5776ce002083f17f7a8f8f37568a092"></div>
-    <span class="blog_item_tit"></span>
-    <span class="blog_item_date">May 06, 2017</span>
+    <div class="blog_item_thumb blog_item_thumb-f5776ce002083f17f7a8f8f37568a092"></div>
+    <div class="blog_item_txt">
+      <span class="blog_item_tit">netlifyを使ってみた</span><br>
+      <span class="blog_item_date">May 06, 2017</span>
+    </div>
+
     <style>
-      .thumb { height: 500px; background-image: url(/images/default.jpg); background-size: cover;}
+      .blog_item_thumb { background-image: url(/images/default.jpg); background-size: cover;}
       
       
     </style>
@@ -59,11 +68,14 @@
 </li>
   <li class="blog_item">
   <a href="/first/">
-    <div class="thumb thumb-e8fb9c67eba912c72729806db31eaa1b"></div>
-    <span class="blog_item_tit">ahgoeghoe</span>
-    <span class="blog_item_date">May 04, 2017</span>
+    <div class="blog_item_thumb blog_item_thumb-e8fb9c67eba912c72729806db31eaa1b"></div>
+    <div class="blog_item_txt">
+      <span class="blog_item_tit">ポートフォリオ作ってみた</span><br>
+      <span class="blog_item_date">May 04, 2017</span>
+    </div>
+
     <style>
-      .thumb { height: 500px; background-image: url(/images/default.jpg); background-size: cover;}
+      .blog_item_thumb { background-image: url(/images/default.jpg); background-size: cover;}
       
       
     </style>
@@ -73,17 +85,16 @@
     </ul>
   </div>
 
-
-
-
 	
 
 </section>
 
 </main>
 
-<footer>
-  <small>copyright</small>
+<footer class="footer">
+  <div class="l-inner">
+    <small>Copyright (c) 2017, KAZUKI NAKATANI </small>
+  </div>
 </footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>

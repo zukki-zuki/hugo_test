@@ -1,12 +1,11 @@
-.thumb {
-  height: 500px;
+.blog_item_thumb {
   background-image: url({{ .Site.BaseURL }}images/default.jpg);
   background-size: cover;
 }
 
 {{ range $p := .Site.Pages }}
 {{ with $p.Params.thumbnail }}
-.thumb-{{ $p.UniqueID }} {
+.blog_item_thumb-{{ $p.UniqueID }} {
   background-image: url({{ $.Site.BaseURL }}{{ . }});
 }
 {{ end }}

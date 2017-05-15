@@ -339,7 +339,7 @@ a[href^="tel:"] {
 .c-tit {
 	display: inline-block;
 	position: relative;
-	margin: 30px auto 15px;
+	margin: 0px auto 15px;
 	padding-bottom: 15px;
 	letter-spacing: 2px;
 	font-size: 34px;
